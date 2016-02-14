@@ -10,15 +10,25 @@
       -
       - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
      -->
-    <script src="lib/jquery-2.1.1.min.js"></script>
-    <script src="lib/ember.min.js"></script>
-    <script src="lib/ember-data.min.js"></script>
-    <script src="lib/handlebars.min.js"></script>
     <script src="popup.js"></script>
+
   </head>
   <body class="body_popup">
+    <script type="text/x-handlebars" id="application">
+      <h1>Gemini notifier</h1>
+    </script>
 
-    <h1>Gemini notification</h1>
+    
 
+    <script src="lib/jquery-2.1.1.min.js"></script>
+    <script src="lib/handlebars.min.js"></script>
+    <script src="lib/ember-template-compiler.js"></script>
+    <script src="lib/ember.min.js"></script>
+    <script src="lib/ember-data.min.js"></script>
+    <script src="ember/app.js"></script>
+    <script src="ember/router.js"></script>
+    <script src="ember/controllers/account.js"></script>
+    <script src="ember/routes/account.js"></script>
+    <script href="ember/templates/account.hbs"></script>
   </body>
 </html>

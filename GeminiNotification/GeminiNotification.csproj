@@ -39,6 +39,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="app\content\reset.css" />
+    <Content Include="app\content\style.css" />
+    <Content Include="app\ember\app.js" />
+    <Content Include="app\ember\controllers\index.js" />
+    <Content Include="app\ember\controllers\account.js" />
+    <Content Include="app\ember\router.js" />
+    <Content Include="app\ember\templates\index.hbs" />
+    <None Include="app\ember\templates\account.hbs" />
+    <Content Include="app\ember\routes\index.js" />
+    <Content Include="app\ember\routes\account.js" />
+    <Content Include="app\event-receiver.js" />
     <Content Include="app\img\icon.png" />
     <Content Include="app\options.html" />
     <Content Include="app\popup.html" />
@@ -49,16 +60,35 @@
     <Content Include="index.htm" />
     <Content Include="Properties\build\ligershark.chrome.targets" />
     <Content Include="screenshots\readme.txt" />
+    <Content Include="app\lib\ember-data.js" />
+    <Content Include="app\lib\ember-data.min.js" />
+    <Content Include="app\lib\ember-data.prod.js" />
+    <Content Include="app\lib\ember-template-compiler.js" />
+    <Content Include="app\lib\ember.debug.js" />
+    <Content Include="app\lib\ember.js" />
+    <Content Include="app\lib\ember.min.js" />
+    <Content Include="app\lib\ember.prod.js" />
+    <Content Include="app\lib\handlebars.amd.js" />
+    <Content Include="app\lib\handlebars.amd.min.js" />
+    <Content Include="app\lib\handlebars.js" />
+    <Content Include="app\lib\handlebars.min.js" />
+    <Content Include="app\lib\handlebars.runtime.amd.js" />
+    <Content Include="app\lib\handlebars.runtime.amd.min.js" />
+    <Content Include="app\lib\handlebars.runtime.js" />
+    <Content Include="app\lib\handlebars.runtime.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="app\lib\ember-data.js.map" />
+    <None Include="app\lib\jquery-2.1.1.intellisense.js" />
+    <Content Include="app\lib\jquery-2.1.1.js" />
+    <Content Include="app\lib\jquery-2.1.1.min.js" />
+    <Content Include="app\lib\jquery-2.1.1.min.map" />
     <None Include="scripts\_references.js" />
     <None Include="scripts\chrome-api-vsdoc.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\manifest.json" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="app\content\" />
-    <Folder Include="app\lib\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
